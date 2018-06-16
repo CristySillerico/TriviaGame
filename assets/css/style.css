@@ -1,0 +1,43 @@
+.modal-header {
+    border-radius: 6px 6px 0px 0px;
+  }
+  
+  .modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 90%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  
+  .modal-dialog {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /*jumbotron image/size/font/text styling*/
+  .jumbotron {
+    background-image:url('../images/download.jpg');
+    background-size:100% 100%;
+    font-family: 'Droid Sans Mono', monospace;
+  }
+  
+  .container .jumbotron {
+      text-align: center;
+    color:rgb(243, 243, 243);
+  }
+  
+  .btn-group-lg>.btn, .btn-lg {
+      width: 40%;
+  }
+  
+  /*hiding results*/
+  #triviaPage, #resultsPage{ 
+      display: none; 
+  }
